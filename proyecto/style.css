@@ -22,7 +22,7 @@ body{
 }
 
 .nav_ctn :hover{
-    color: rgb(255, 255, 255);
+    color: #4035b6;
 }
 
 a{
@@ -41,6 +41,16 @@ a{
     font-size: 30px;
     text-align: left;
 }
+
+.sobreMi-texto h1,p{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
 
 .texto{
     color: #ffffff;
@@ -103,16 +113,27 @@ h2{
 }
 
 .box {
+    
     height: 200px;
-    width: 1000px;
+    width: 700px;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    
-    background-color: #0d0d0d;
-
+    border-radius: 100px;
+    background-color: #13131394;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
+
+h3{
+    margin-bottom: 20px;
+}
+
+
+
 
 .experiencia{
     background-color: #4035b6;
@@ -162,3 +183,9 @@ footer{
     width: 100%;
     z-index: 100;
   }
+
+.exp-container {
+    color: white;
+    text-align: left;
+    
+}
